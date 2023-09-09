@@ -1,5 +1,13 @@
-export { default as CustomButton } from "./CustomButton";
-export { default as AIPicker } from "./AIPicker";
-export { default as ColorPicker } from "./ColorPicker";
-export { default as FilePicker } from "./FilePicker";
-export { default as Tab } from "./Tab";
+import CustomButton from "./CustomButton";
+import AIPicker from "./AIPicker";
+import ColorPicker from "./ColorPicker";
+import FilePicker from "./FilePicker";
+import Tab from "./Tab";
+
+export { 
+  CustomButton,
+  AIPicker,
+  ColorPicker,
+  FilePicker,
+  Tab,
+};
